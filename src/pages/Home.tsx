@@ -184,7 +184,7 @@ function Home() {
                   size="medium"
                   value={rounded}
                   defaultValue={50}
-                  onChange={(e, v) => setRounded(v as number)}
+                  onChange={(_e, v) => setRounded(v as number)}
                   min={0}
                   max={100}
                   step={1}
@@ -198,7 +198,7 @@ function Home() {
                   size="medium"
                   value={margin}
                   defaultValue={0}
-                  onChange={(e, v) => setMargin(v as number)}
+                  onChange={(_e, v) => setMargin(v as number)}
                   min={0}
                   max={50}
                   step={1}
